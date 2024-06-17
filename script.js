@@ -23,6 +23,12 @@ sendButton.addEventListener('click', () => {
     chatLog.innerHTML += `You: ${text}<br>`;
     respond(text);
 });
+const video = document.getElementById('autoplayVideo');
+    video.addEventListener('ended', function() {
+      video.currentTime = 0; // Reset video to the beginning
+      video.play();
+    });
+  
 
 function respond(text) {
     const responses = {
