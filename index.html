@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Assistant</title>
+    <style>
+        body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#chat-log {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+button {
+    size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #06710a;
+}
+
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>Voice Assistant</h1>
+    <video controls width="500" autoplay muted>
+        <source src="kvas.mp4.mp4" type="video/mp4">
+    </video><br>
+
+    <button id="start-button">Start</button>
+    <button id="send-button">Send</button>
+    <input id="text-input" type="text" placeholder="Type or speak...">
+    <div id="chat-log"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
