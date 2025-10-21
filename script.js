@@ -134,7 +134,7 @@ function respond(text) {
       'could you provide more information on that': 'Sure, what specifically would you like me to provide?',
       'can you provide further information on that': 'I can provide further information on that. What specifically would you like to know?',
       'could you provide further information on that': 'Of course! What would you like me to explain?',
-      'can you give me more details about that': 'I can provide more details about that. What specifically would you like to know?',
+      
       
     };
 
